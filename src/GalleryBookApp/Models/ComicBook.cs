@@ -22,7 +22,7 @@ namespace GalleryBookApp.Models
         }
         public string CoverImageFileName {
             get{
-                return SeriesTitle.Replace(" ", "-") + "-" + IssueNumber;
+                return SeriesTitle.Replace(" ", "-").ToLower()+ "-" +IssueNumber+".jpg";
             }
         }
 
