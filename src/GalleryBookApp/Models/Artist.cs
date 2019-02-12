@@ -7,7 +7,7 @@ namespace GalleryBookApp.Models
 {
     public class Artist
     {
-        public string role { get; set; }
-        public string name { get; set; }
+        public string Role { get; set; }
+        public string Name { get; set; }
     }
 }
