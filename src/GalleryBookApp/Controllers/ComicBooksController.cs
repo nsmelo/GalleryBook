@@ -15,7 +15,7 @@ namespace GalleryBookApp.Controllers
         public string[] Artists { set; get; } */
         public ActionResult Detail()
         {
-            var comicBook = new ComicBook()
+           /* var comicBook = new ComicBook()
             {
                 SeriesTitle = "The Amazing Spider-Man",
                 IssueNumber = 700,
@@ -30,8 +30,8 @@ namespace GalleryBookApp.Controllers
              
               }
             };
-
-            return View(comicBook);
+            */
+            return View();
 
             /*
               ViewBag.SeriesTitle = "The Amazing Spider-Man";
